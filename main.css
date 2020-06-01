@@ -1,0 +1,80 @@
+body{
+    
+    font-family: sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+    align-items: center;
+    margin:5px;
+    vertical-align: super;
+}
+#button{
+    width: 133px;
+    height: 44px;
+    background-color: indigo;
+    border-style: hidden;
+    border-radius: 43px;
+    color: aliceblue;
+    position: relative;
+    right: 142px;
+}
+input[type="text" i] {
+    height: 48px;
+    width: 450px;
+    border-radius: 22px;
+    padding-left: 20px;
+    border-style: double;
+    margin-left: 145px;
+}
+.center{
+    text-align: center;
+}
+.logo{
+    padding: 50px;
+}
+.section{
+    border-style: groove;
+    width: 230px;
+    padding-left: 15px;
+    height: 85px;
+    margin-bottom: 9px;
+    border-radius: 6px;
+    border-width: thin;
+    border-color: antiquewhite;
+    background-color: ghostwhite;
+}
+.section p{
+    margin-top: -13px;
+}
+.grid{
+    width: 140px;
+    border-style: hidden;
+    height: 123px;
+    background: white;
+    border-radius: 13px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.flex-container{
+display: flex;
+}
+.flex{
+    padding-right: 141px;
+    margin-left: 340px;
+    border-right-style: groove;
+    margin-right: 95px;
+    border-width: thin;
+}
+.group{
+    height: 450px;
+    padding-top: 25px;
+}
+.grid-container{
+    display: grid;
+    grid-gap: 11px;
+    grid-template-columns: auto auto auto;
+    padding-top: 88px;
+    padding-left: 150px;
+}
